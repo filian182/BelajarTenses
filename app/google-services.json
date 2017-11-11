@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "457626489307",
+    "firebase_url": "https://belajar-tenses.firebaseio.com",
+    "project_id": "belajar-tenses",
+    "storage_bucket": "belajar-tenses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457626489307:android:2c9f077c63e53800",
+        "android_client_info": {
+          "package_name": "com.plankton.belajartenses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457626489307-0nc367jcl8i86hsk19beo8vkhjar001m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnwX253Y4Qh_mRv3-Lvtg6bRL1kc_Ern4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

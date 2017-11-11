@@ -1,0 +1,42 @@
+<resources>
+
+        <string name="app_name">Tenses Bahasa Inggris</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-9743149052532225/8950470993</string>
+
+        <string-array name="catagory">
+            <item>1. Simple Present</item>
+            <item>2. Present Continuous</item>
+            <item>3. Present Perfect</item>
+            <item>4. Present Perfect Continuous</item>
+            <item>5. Simple Past</item>
+            <item>6. Past Continuous</item>
+            <item>7. Past Perfect</item>
+            <item>8. Past Perfect Continuous</item>
+            <item>9. Simple Future</item>
+            <item>10. Future Continuous</item>
+            <item>11. Future Perfect</item>
+            <item>12. Future Perfect Continuous</item>
+            <item>13. Past Future</item>
+            <item>14. Past Future Continuous</item>
+            <item>15. Past Future Perfect</item>
+            <item>16. Past Future Perfect Continuous</item>
+        </string-array>
+
+<string name="text1">Belajar Tenses</string>
+    <string name="text2">Bermain dulu baru belajar</string>
+
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="navigation_view_item_1">Beranda</string>
+    <string name="navigation_view_item_2">Profil</string>
+    <string name="navigation_view_item_3">Daftar</string>
+    <string name="navigasi_kategori_2">Sub Item Navigasi</string>
+    <string name="navigation_view_item_4">Settings</string>
+    <string name="navigation_view_item_5">About</string>
+    <string name="belajar_sambil_main">text1</string>
+    <string name="abis_main_trus_belajar">text2</string>
+
+</resources>
+
