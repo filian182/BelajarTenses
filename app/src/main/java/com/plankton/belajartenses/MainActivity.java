@@ -21,23 +21,18 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView ListView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getResources().getString(R.string.app_name));
-        ListView = (ListView) findViewById(R.id.Listview);
+        ListView = findViewById(R.id.Listview);
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.menu);
-        final DrawerLayout mdrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
-
-
-
+        NavigationView navigationView = findViewById(R.id.menu);
+        final DrawerLayout mdrawerLayout = findViewById(R.id.drawerLayout);
 
         ArrayAdapter<String> mAdapter = new ArrayAdapter<>(MainActivity.this,
                 android.R.layout.simple_list_item_1,
@@ -53,19 +48,9 @@ public class MainActivity extends AppCompatActivity {
         });
         ListView.setAdapter(mAdapter);
 
-
-
-
-
-
-
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mdrawerLayout, toolbar, R.string.openDrawer, R.string.closeDrawer);
-
         mdrawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-
-
-
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @SuppressWarnings("NullableProblems")
             @Override
@@ -97,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.action_share:
                         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                         sharingIntent.setType("text/plain");
-                        String shareBodyText = "https://play.google.com/store/apps/details?id=com.plankton.tenses&hl=in";
+                        String shareBodyText = "https://play.google.com/store/apps/details?id=com.plankton.belajartenses";
                         sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Aplikasi Belajar Tenses");
                         sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
                         startActivity(Intent.createChooser(sharingIntent, "Bagikan dengan"));
@@ -110,21 +95,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
     // Menginisasi Drawer Layout dan ActionBarToggle
-
-
-
-
-
-
-    //
-//
-//
-//
-//
-//
     @Override
     public void onBackPressed () {
 
@@ -139,32 +111,5 @@ public class MainActivity extends AppCompatActivity {
                     })
                     .setNegativeButton("Tidak", null).show();
         }
-
     }
-
-
-
-//
-//
-//
-//
-//
-//
-//
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
 }
-
-
-
-
-

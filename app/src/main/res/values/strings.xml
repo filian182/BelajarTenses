@@ -2,7 +2,8 @@
 
         <string name="app_name">Tenses Bahasa Inggris</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-9743149052532225/8950470993</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-9743149052532225/9422810755</string>
 
         <string-array name="catagory">
             <item>1. Simple Present</item>
@@ -37,6 +38,7 @@
     <string name="navigation_view_item_5">About</string>
     <string name="belajar_sambil_main">text1</string>
     <string name="abis_main_trus_belajar">text2</string>
+    <string name="android">Android</string>
 
 </resources>
 

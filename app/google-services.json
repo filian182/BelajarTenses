@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:457626489307:android:2c9f077c63e53800",
+        "mobilesdk_app_id": "1:457626489307:android:d46ff930534356d7",
         "android_client_info": {
           "package_name": "com.plankton.belajartenses"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "457626489307-sgdvos76pukm77albdjpl1mtt1c23l5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plankton.belajartenses",
+            "certificate_hash": "6f99eb36d9d73048d3b846d1881f57692ae9380e"
+          }
+        },
         {
           "client_id": "457626489307-0nc367jcl8i86hsk19beo8vkhjar001m.apps.googleusercontent.com",
           "client_type": 3
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457626489307-0nc367jcl8i86hsk19beo8vkhjar001m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
