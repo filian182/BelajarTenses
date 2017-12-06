@@ -32,4 +32,9 @@
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
     </style>
 
+
+    <style name="CustomListItem" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/custom_list_item</item>
+
+    </style>
 </resources>

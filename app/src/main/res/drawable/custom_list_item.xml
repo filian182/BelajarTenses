@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--suppress AndroidUnknownAttribute -->
+<shape  xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CustomListItem" android:shape="rectangle" android:padding="10dp">
+
+        <solid android:color="@color/lightgreen500"/>
+        <corners
+            android:bottomRightRadius="0dp"
+            android:bottomLeftRadius="0dp"
+            android:topLeftRadius="0dp"
+            android:topRightRadius="0dp"
+            />
+
+        <stroke
+            android:color="@color/lightgreen500"
+            android:bottom="0dp"
+            android:left="0dp"
+            android:right="0dp"
+            android:top="0dp"/>
+    </shape>

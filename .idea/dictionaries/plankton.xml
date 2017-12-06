@@ -2,6 +2,10 @@
   <dictionary name="plankton">
     <words>
       <w>belajartenses</w>
+      <w>penjelasan</w>
+      <w>sharedpref</w>
+      <w>tensesbahasainggris</w>
+      <w>titledescription</w>
     </words>
   </dictionary>
 </component>

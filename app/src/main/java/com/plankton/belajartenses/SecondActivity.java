@@ -6,14 +6,14 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.webkit.WebView;
+import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
 
 public class SecondActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,13 +22,22 @@ public class SecondActivity extends AppCompatActivity {
 
 
         //iklan banner admob
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar1);
+        AdView adView = new AdView(this);
+        adView.setAdSize(AdSize.SMART_BANNER);
+        //iklan banner admob
+
+        Toolbar mToolbar = findViewById(R.id.toolbar1);
         setSupportActionBar(mToolbar);
-        WebView webView = (WebView) findViewById(R.id.webView);
+        TextView textView1= findViewById(R.id.textView1);
+        TextView textView2= findViewById(R.id.textView2);
+        TextView textView3= findViewById(R.id.textView3);
+        TextView textView4= findViewById(R.id.textView4);
+        TextView textView5= findViewById(R.id.textView5);
+        TextView textView6= findViewById(R.id.textView6);
 
         if(getSupportActionBar()!=null) {                                ////backToolbar
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -40,92 +49,173 @@ public class SecondActivity extends AppCompatActivity {
         if (bundle != null) {
             mToolbar.setTitle(bundle.getString("CatagoryName"));}
 
-        if (mToolbar.getTitle().toString().equalsIgnoreCase("1. Simple Present")) {
-            webView.loadUrl("file:///android_asset/new/1.Simple_Present.html");
+        if (mToolbar.getTitle().toString().equalsIgnoreCase("TENSES (BENTUK WAKTU)")) {
+            textView1.setText(R.string.Penjelasan);
+            textView2.setText(R.string.PenjelasanTenses);
+            textView3.setText(R.string.kalimatNominal);
+            textView4.setText(R.string.kalimatNominal1);
+            textView5.setText(R.string.kalimatVerbal);
+            textView6.setText(R.string.kalimatVerbal1);
+            mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
+
+
+        }if (mToolbar.getTitle().toString().equalsIgnoreCase("1. Simple Present")) {
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses1);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses11);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses111);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("2. Present Continuous")) {
-            webView.loadUrl("file:///android_asset/new/2.Present_Continuous.html");
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses2);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses22);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses333);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("3. Present Perfect")) {
-            webView.loadUrl("file:///android_asset/new/3.Present_Perfect.html");
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses3);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses33);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses333);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("4. Present Perfect Continuous")) {
-            webView.loadUrl("file:///android_asset/new/4.Present_Perfect_Continuous.html");
+            textView1.setText(R.string.description);
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses4);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses44);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses444);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("5. Simple Past")) {
-            webView.loadUrl("file:///android_asset/new/5.Simple_Past.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses5);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses55);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses555);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("6. Past Continuous")) {
-            webView.loadUrl("file:///android_asset/new/6.Past_Continuous.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses6);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses66);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses666);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("7. Past Perfect")) {
-            webView.loadUrl("file:///android_asset/new/7.Past_Perfect.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses7);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses77);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses777);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("8. Past Perfect Continuous")) {
-            webView.loadUrl("file:///android_asset/new/8.Past_Perfect_Continuous.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses8);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses88);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses888);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("9. Simple Future")) {
-            webView.loadUrl("file:///android_asset/new/9.Simple_Future.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses9);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses99);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses999);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("10. Future Continuous")) {
-            webView.loadUrl("file:///android_asset/new/10.Future_Continuous.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses10);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses1010);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses101010);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("11. Future Perfect")) {
-            webView.loadUrl("file:///android_asset/new/11.Future_Perfect.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses1111);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses111111);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses11111111);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("12. Future Perfect Continuous")) {
-            webView.loadUrl("file:///android_asset/new/12.Future_Perfect_Continuous.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses12);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses1212);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses121212);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("13. Past Future")) {
-            webView.loadUrl("file:///android_asset/new/13.Past_Future.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses13);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses1313);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses131313);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("14. Past Future Continuous")) {
-            webView.loadUrl("file:///android_asset/new/14.Past_Future_Continuous.html");
-
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses14);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses1414);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses141414);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("15. Past Future Perfect")) {
-            webView.loadUrl("file:///android_asset/new/15.Past_Future_Perfect.html");
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses15);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses1515);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses151515);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 
         }else if (mToolbar.getTitle().toString().equalsIgnoreCase("16. Past Future Perfect Continuous")) {
-            webView.loadUrl("file:///android_asset/new/16.Past_Future_Perfect_Continuous.html");
+            textView1.setText(R.string.description);
+            textView2.setText(R.string.tenses16);
+            textView3.setText(R.string.formula);
+            textView4.setText(R.string.tenses1616);
+            textView5.setText(R.string.example);
+            textView6.setText(R.string.tenses161616);
             mToolbar.setBackgroundColor(ContextCompat.getColor(SecondActivity.this, R.color.lightgreen500));
 
 

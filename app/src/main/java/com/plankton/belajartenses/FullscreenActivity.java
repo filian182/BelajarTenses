@@ -4,8 +4,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class FullscreenActivity extends Activity {
 
+    InterstitialAd mInterstitialAd;
+    private InterstitialAd interstitial;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +22,7 @@ public class FullscreenActivity extends Activity {
             @Override
             public void run() {
                 try {
-                    sleep(3000);
+                    sleep(2000);
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
                     finish();
@@ -26,5 +32,28 @@ public class FullscreenActivity extends Activity {
             }
         };
         mythread.start();
-    }
-}
+
+
+    AdRequest adRequest = new AdRequest.Builder().build();
+
+    // Prepare the Interstitial Ad
+    interstitial = new InterstitialAd(FullscreenActivity.this);
+// Insert the Ad Unit ID
+        interstitial.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
+
+        interstitial.loadAd(adRequest);
+// Prepare an Interstitial Ad Listener
+        interstitial.setAdListener(new AdListener() {
+        public void onAdLoaded() {
+// Call displayInterstitial() function
+            displayInterstitial();
+        }
+    });}
+
+
+    public void displayInterstitial() {
+// If Ads are loaded, show Interstitial else show nothing.
+        if (interstitial.isLoaded()) {
+            interstitial.show();
+        }
+    }}

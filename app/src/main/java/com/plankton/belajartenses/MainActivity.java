@@ -64,15 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (menu.getItemId()) {
                     // pilihan menu item navigasi akan menampilkan pesan toast klik kalian bisa menggantinya
                     //dengan intent activity
-                    case R.id.navigation1:
-                        Toast.makeText(getApplicationContext(), "Beranda Telah Dipilih", Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.navigation2:
-                        Toast.makeText(getApplicationContext(), "Profil Telah Dipilih", Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.navigation3:
-                        Toast.makeText(getApplicationContext(), "Daftar Telah Dipilih", Toast.LENGTH_SHORT).show();
-                        return true;
+
                     case R.id.navigation4:
                         Toast.makeText(getApplicationContext(), "Setting telah dipilih", Toast.LENGTH_SHORT).show();
                         return true;
@@ -106,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
                     .setCancelable(false)
                     .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
+
+
                             MainActivity.this.finish();
                         }
                     })

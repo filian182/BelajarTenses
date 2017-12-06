@@ -2,10 +2,11 @@
 
         <string name="app_name">Tenses Bahasa Inggris</string>
 
-
-    <string name="banner_ad_unit_id">ca-app-pub-9743149052532225/9422810755</string>
+<string name="banner_ad_unit_id">ca-app-pub-9743149052532225/9422810755</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
 
         <string-array name="catagory">
+            <item>TENSES (BENTUK WAKTU)</item>
             <item>1. Simple Present</item>
             <item>2. Present Continuous</item>
             <item>3. Present Perfect</item>
@@ -26,6 +27,7 @@
 
 <string name="text1">Belajar Tenses</string>
     <string name="text2">Bermain dulu baru belajar</string>
+    <string name="text3">/belajartenses/android/tensesbahasainggris"</string>
 
 
     <string name="openDrawer">Drawer dibuka</string>
@@ -34,11 +36,194 @@
     <string name="navigation_view_item_2">Profil</string>
     <string name="navigation_view_item_3">Daftar</string>
     <string name="navigasi_kategori_2">Sub Item Navigasi</string>
-    <string name="navigation_view_item_4">Settings</string>
-    <string name="navigation_view_item_5">About</string>
+    <string name="navigation_view_item_4">Pengaturan</string>
+    <string name="navigation_view_item_5">Tentang</string>
+    <string name="navigation_view_item_6">Bagikan</string>
     <string name="belajar_sambil_main">text1</string>
     <string name="abis_main_trus_belajar">text2</string>
     <string name="android">Android</string>
+
+    <string name="Penjelasan">Penjelasan dan Pemakaiannya</string>
+    <string name="kalimatNominal">Kalimat Nominal</string>
+    <string name="kalimatVerbal">Kalimat Verbal</string>
+
+    <string name="description">Pengertian :</string>
+    <string name="formula">Rumus :</string>
+    <string name="example">Example :</string>
+
+    <string name="PenjelasanTenses">Untuk menyampaikan suatu maksud, keinginan, pernyataan, berita,
+        peristiwa, tindakan dan lainnya, secara tertulis maupun secara lisan agar dapat dipahami dan
+    dimengerti dengan jelas dan benar. Kapan suatu kejadian itu terjadi, didalam Bahasa Inggris maka kita harus
+        mempergunakan bentuk waktu <b>(TENSES)</b> yang tepat dan benar.\n\nYang dimaksud dengan <i>TENSES</i> itu adalah suatu gambaran atau penjelasan kapan suatu pernyataan, berita, peristiwa, tindakan itu terjadi
+        didalam kalimat : sekarang, masa lampau ataupun masa yang akan datang. Atau perubahan bentuk dari kata kerja <b>(Verb)</b> yang sesuai dengan waktu
+    terjadinya suatu peristiwa dan perubahan keterangan waktu. untuk jelasnya kita ambil contoh sebagai berikut :\n</string>
+    <string name="kalimatNominal1">Yang dimaksud kalimat Nominal :\nSuatu kalimat yang tidak mempunyai kata kerja dan bagian terpentingnya adalah Verb (TO BE) yaitu :\n</string>
+    <string name="kalimatVerbal1">Yang dimaksud dengan kalimat Verbal :\nSuatu kalimat yang bagian terpentingnya adalah predikat, kata kerjanya (Verb) dan akan kita temukan kalimat Transitif dan kalimat Intransitif.</string>
+
+
+    <string name="tenses1">Simple Present Tense adalah suatu bentuk kalimat yang menyatakan suatu perbuatan atau peristiwa yang terjadi pada saat sekarang atau kejadian yang merupakan kebiasaan sehari-hari. Arti dari "simple" yaitu sederhana, sedangkan "present" adalah sekarang. Jadi bisa dikatakan bahwa Simple Present adalah tenses (pola kalimat) yang digunakan untuk menceritakan waktu sekarang dalam bentuk sederhana.</string>
+    <string name="tenses11">
+    <b>( + )</b> S + V1 (s/es)\n<b>( - )</b> S + do/does + not + V1\n<b>( ? )</b> Do/does + S + V1\n</string>
+    <string name="tenses111"><b>( + )</b> You are a teacher\n
+					<i>(Kamu adalah seorang guru)</i>\n
+               <b>( - )</b> You are NOT a teacher\n
+                    <i>(Kamu bukan seorang guru)</i>\n
+               <b>( ? )</b> Are you a teacher?\n
+                    <i>(Apakah kamu seorang guru?)</i>\n\n
+    </string>
+
+    <string name="tenses2">Present Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang sedang berlangsung atau sedang dikerjakan, dan belum selesai di waktu sekarang.
+</string>
+    <string name="tenses22">
+    <b>( + )</b> S + to be + Ving\n<b>( - )</b> S + to be + not + Ving\n<b>( ? )</b> to be + S + Ving \n</string>
+    <string name="tenses222"><b>( + )</b> I am waiting a letter now\n
+                    <i>(Saya sedang menulis surat sekarang.)</i>\n
+                <b>( - )</b> They are not speaking English \n
+                    <i>(Mereka tidak sedang berbicara Bahasa Inggris.)</i>\n
+                <b>( ? )</b> Is he watching TV now?\n
+                    <i>(Apakah dia sedang nonton TV sekarang?)</i>\n\n</string>
+
+    <string name="tenses3">Present Perfect Continuous Tenses digunakan untuk menyatakan suatu perbuatan atau persitiwa yang sedang terjadi pada waktu lampau dan masih ada hubungannya dengan saat sekarang.
+				</string>
+    <string name="tenses33"><b>( + )</b> S + have/has + V3 \n<b>( - )</b> S + have/has + Not + V3 \n<b>( ? )</b> Have/has + S + V3\n</string>
+    <string name="tenses333"><b>( + )</b> He has lived there for two years ago.\n
+					<i>(Dia telah tinggal di sana selama dua tahun.)</i>\n
+                <b>( - )</b> They haven’t come here yet.\n
+                    <i>(Mereka belum datang kemari.)</i>\n
+                <b>( ? )</b> Have you eaten your bread?\n
+                    <i>(Apakah kamu sudah makan rotimu?)</i>\n\n</string>
+
+    <string name="tenses4">Present Perfect Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang dimulai dari waktu lampau dan masin terus berlangsung hingga waktu sekarang.
+    </string>
+    <string name="tenses44"><b>( + )</b> S + have/has + been + Ving \n<b>( - )</b> S + have/has + not + been + Ving\n<b>( ? )</b> Have/has + S been + Ving\n</string>
+    <string name="tenses444"><b>( + )</b> I have been studying English for over nine years. \n
+                    <i>(Saya telah belajar bahasa inggris selama lebih dari Sembilan tahun.)</i>\n
+                <b>( - )</b> They haven’t been swimming since January.\n
+                    <i>(Mereka belum berenang lagi sejak bulan January.)</i>\n
+                <b>( ? )</b> Has she been studying English for two year?\n
+                    <i>(Apakah dia teleh mempelajari bahsa Inggris selama dua tahun?)</i>\n\n</string>
+
+    <string name="tenses5">Simple Past Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang telah terjadi pada waktu lampau dan tidak ada hubungannya dengan masa sekarang.
+    </string>
+    <string name="tenses55"><b>( + )</b> S + V2\n<b>( - )</b> S + did not + V1\n<b>( ? )</b> Did + S + V1\n</string>
+    <string name="tenses555"><b>( + )</b> I went to Campus yesterday.\n
+                    <i>(Saya pergi ke Kampus kemarin.)</i>\n
+                <b>( - )</b> I did not go to Campus yesterday.\n
+                    <i>(Saya tidak pergi ke Kampus kemarin.)</i>\n
+                <b>( ? )</b> Did you go to Campus yesterday?\n
+                    <i>(Apakah kamu pergi ke Kampus kemarin?)</i>\n\n</string>
+
+    <string name="tenses6">Past Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang sedang beralangsung pada waktu lampau ketika kejadian lain terjadi.
+    </string>
+    <string name="tenses66"><b>( + )</b> S + was/were + Ving\n<b>( - )</b> S + was/were + not + Ving\n<b>( ? )</b> Was/were + S + Ving\n </string>
+    <string name="tenses666"><b>( + )</b> I was listening to radio when the telephone rang \n
+                    <i>(Saya sedang mengdengarkan radio ketika telepon berbunyi.)</i>\n
+                <b>( - )</b> I wasn’t watching TV when you phoned me. \n
+                <i>(Saya tidak sedang menonton TV ketika anda menelpon saya.)</i>\n
+                <b>( ? )</b> Were you Watching TV when I called you?\n
+                    <i>(Apakah kamu sedang menonton TV ketika saya menelpon kamu?)</i>\n\n</string>
+
+    <string name="tenses7">Past Perfect Tense digunakan untuk menerangkan suatu perbuatan atau peristiwa yang sudah selesai dilakukan pada waktu lampau.
+    </string>
+    <string name="tenses77"><b>( + )</b> S + had + V3\n<b>( - )</b> S + had + not + V3\n<b>( ? )</b> Had + S + V3\n</string>
+    <string name="tenses777"><b>( + )</b> I had gone when He arrived at my Home. \n
+                    <i>(Saya pergi ketika dia tiba di rumah saya.)</i>\n
+                <b>( - )</b> She hadn’t been at home. \n
+                    <i>(Dia tidak ada di rumah.)</i>\n
+                <b>( ? )</b> Had you studied English when your father come here?\n
+                    <i>(Apakah kamu telah belajar Bahasa Inggris ketika ayahmu ke sini?)</i>\n\n</string>
+
+    <string name="tenses8">Past Perfect Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang sudah dimulai pada waktu lampau dan masih berlangsung terus hingga pada waktu yang lampau pula.
+    </string>
+    <string name="tenses88"><b>( + )</b> S + had + been + Ving\n<b>( - )</b> S + had + not + been + Ving\n<b>( ? )</b> Had + S + been + Ving\n</string>
+    <string name="tenses888"><b>( + )</b> He had been living in here before he moved to Semarang.\n
+                    <i>(Dia telah tinggal di sini, sebelum dia pindah ke Semarang.)</i>\n
+                <b>( - )</b> They had not been sleeping until I can me to meet him.\n
+                    <i>(Mereke belum sedang tidur hingga saya menemui mereka.)</i>\n
+                <b>( ? )</b> Had she been finishing her duty before her leader inspected it?\n
+                    <i>(Apakah dia sudah menyelesaikan tugas-tugasnya sebelum pimpinannya memeriksanya?)</i>\n\n</string>
+
+    <string name="tenses9">Future Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang terjadi atau dilakukan pada waktu yang akan datang. Ciri penandanya misalnya terdapat kata tomorrow, next month, next year, next saturday, dan sebagainya.
+    </string>
+    <string name="tenses99"><b>( + )</b> S + will + V1\n<b>( - )</b> S + will + not + V1\n<b>( ? )</b> Will + S + V1\n </string>
+    <string name="tenses999"><b>( + )</b> I will do to Jakarta next week. \n
+                    <i>(Saya akan ke Jakarta minggu depan.)</i>\n
+                <b>( - )</b> They will not sail to the sea. \n
+                    <i>(Mereka tidak akan berlayar ke lautan.)</i> \n
+                <b>( ? )</b> What will she do then?\n
+					<i>(Apa yang akan dia lakukan selanjutnya?)</i>\n\n</string>
+
+    <string name="tenses10">Future Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang akan sedang terjadi pada waktu yang akan datang.
+    </string>
+    <string name="tenses1010"><b>( + )</b> S + will + be + Ving\n<b>( - )</b> S + will + not + be + Ving\n<b>( ? )</b> Will + S + be + Ving\n</string>
+    <string name="tenses101010"><b>( + )</b> My mother will be teaching math at o’clock next week.\n
+                    <i>(Ibu saya akan (sedang) mengajar matematika jam delapan minggu depan.)</i>\n
+                <b>( - )</b> We shall not be working at 7 p.m.\n
+                    <i>(Kita tidak akan (sedang) bekerja pada jam tujuh malam besok.)</i>\n
+               <b>( ? )</b> ill you be going out if she comes here to night?\n
+                    <i>(Akan Anda akan (sedang) keluar, jika dia datang ke sini nanti malam?)</i>\n\n </string>
+
+    <string name="tenses1111">Future Perfect Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang sudah dimulai pada waktu lampau dan segera selesai pada waktu yang akan datang.
+    </string>
+    <string name="tenses111111"><b>( + )</b> S + will + have + V3\n<b>( - )</b> S + will + not have + V3\n<b>( ? )</b> Will + S + have + V3\n </string>
+    <string name="tenses11111111"><b>( + )</b> She will have been at home. \n
+                    <i>(Dia akan telah berada di rumah.)</i> \n
+                <b>( - )</b> The wild cat will not have been here for a year by next month.\n
+                    <i>(Kucing liar itu belum akan sudah di sini selama setahun menjelang bulan ini.)</i>\n
+                <b>( ? )</b> Will you have been a doctor by next year?\n
+                    <i>(Akankah Anda sudah menjadi seorang dokter tahun depan?)</i>\n\n </string>
+
+    <string name="tenses12">Future Perfect Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang sudah dimulai pada waktu lapau tetapi mungkin akan berlangsung pada waktu yang berlainan di masa mendatang.
+    </string>
+    <string name="tenses1212"><b>( + )</b> S + will + have + been + Ving\n<b>( - )</b> S + will + not + have + been + Ving\n<b>( ? )</b> Will + S + have + been + Ving\n</string>
+    <string name="tenses121212"><b>( + )</b> By next new year I shall have been teaching at this SMU for three years.\n
+                    <i>(Menjelang tahun baru mendatang, (berarti) tiga tahun saya mengajar di SMU ini.)</i>\n
+                <b>( - )</b> I shall not have been staying here for five years by the end by month. \n
+                    <i>(Saya belum akan sudah tinggal di sini selama lima tahun menjelang akhir bulan ini.)</i> \n
+               <b>( ? )</b> Will she have been leaving the town for two years by end of this year? \n
+                    <i>(Apakah kamu akan sudah meninggalkan kota ini menjelang akhir tahun ini?)</i>\n\n</string>
+
+    <string name="tenses13">Past Future Tense digunakan untuk menyatakan suatu perbutan atau peristiwa yang akan terjadi pada waktu lampau.
+    </string>
+    <string name="tenses1313"><b>( + )</b> S + should/would + V1\n<b>( - )</b> S + should/would + not + V1\n<b>( ? )</b> should/would + S + V1\n </string>
+    <string name="tenses131313"><b>( + )</b> I would be there the week before.\n
+                    <i>(Saya mestinya berada di sana minggu sebelumnya.)</i>\n
+                <b>( - )</b> I should not give money if you to my shop.\n
+                    <i>(Saya tidak akan member uang jika kau datang ke tokoku.)</i>\n
+               <b>( ? )</b> Would he buy a shoes last month ?\n
+                    <i>(Akankan ia membeli sepatu bulan lalu?)</i>\n\n
+</string>
+
+    <string name="tenses14">Past Future Continuous Tenses ialah bentuk waktu untuk menyatakan perbuatan atau peristiwa yang akan sedang dilaksanakan dimasa lampau.
+    </string>
+    <string name="tenses1414"><b>( + )</b> S + would + be + Ving\n<b>( - )</b> S + would + not + be + Ving\n<b>( ? )</b> Would + S + be + Ving\n</string>
+    <string name="tenses141414"><b>( + )</b> I should be beginning an examination at this time following day.\n
+                    <i>(Saya akan sedang memulai ujian pada jam ini di hari berikutnya.)</i>\n
+                <b>( - )</b> We couldn’t be playing at six o’clock yesterday moorning.\n
+                    <i>(Pukul enam kemarin pagi kita tidak akan sedang bermain.)</i>\n
+                <b>( ? )</b> Would you be playing a chess at three o’clock yesterday?\n
+                    <i>(Apakah kamu akan sedang bermain catur pada jam tiga kemarin?)</i>\n\n</string>
+
+    <string name="tenses15">Past Future Perfect Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang akan sudah selasai pada waktu lampau atau menyatakan pengandaian yang tidak mungkin terjadi karena syaratnya sudah pasti tidak akan terpenuhi.
+    </string>
+    <string name="tenses1515"><b>( + )</b> S + would + have + V3\n<b>( - )</b> S + would + not + have + be + V3\n<b>( ? )</b> Would + S + have + V3\n </string>
+    <string name="tenses151515"><b>( + )</b> I should have been at home if you had invited me\n
+                    <i>(Saya akan sudah berada di rumah jika kamu telah mengundanku.)</i>\n
+                <b>( - )</b> He would not have graduated if he hadn’t studied hard.\n
+                    <i>(Dia tidak akan lulus seandainya dia tidak belajar dengan giat.)</i>\n
+                <b>( ? )</b> Would your aunt have wedded with my uncle if my father had been agreed?\n
+                    <i>(Apakah bibimu akan sudah menikah dengan pamanku, seandainya ayahku sudah menyetujuinya?)</i>\n\n </string>
+
+    <string name="tenses16">Past Future Perfect Continuous Tense digunakan untuk menyatakan suatu perbuatan atau peristiwa yang akan sudah sedang akan berlangsung pada waktu lampau.
+    </string>
+    <string name="tenses1616"><b>( + )</b> S + would + have + been + Ving\n<b>( - )</b> S + would + not + have + been + Ving\n<b>( ? )</b> Would + S + have + been + Ving\n</string>
+    <string name="tenses161616"><b>( + )</b> We should have been teaching English at SMP for three years by the end of last year.\n
+                    <i>(Kami akan sudah sedang mengajar bahasa inggris di SMP selama tiga tahun menjelang tahun lalu.)</i>\n
+                <b>( - )</b> You would not have been studying mathematics for two month, by the end of last month\n
+                    <i>(Kamu belum akan sudah belajar matematika selama dua bulan menjelang akhir bulan lalu.)</i>\n
+                <b>( ? )</b> Would they have been waiting for me for three hours by Last Sunday?\n
+                    <i>(Apakah mereka akan sudah sedang menungguku selama tiga jam menjelang hari minggu lalu?)</i>\n\n</string>
+
 
 </resources>
 
