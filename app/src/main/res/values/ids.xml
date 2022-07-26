@@ -1,5 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="adView" type="id">adview</item>
-    <item name="drawer" type="id">drawer</item>
 </resources>

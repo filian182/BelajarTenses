@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "457626489307",
-    "firebase_url": "https://belajar-tenses.firebaseio.com",
-    "project_id": "belajar-tenses",
-    "storage_bucket": "belajar-tenses.appspot.com"
+    "project_number": "723349145723",
+    "firebase_url": "https://pendidikanbelajartenses.firebaseio.com",
+    "project_id": "pendidikanbelajartenses",
+    "storage_bucket": "pendidikanbelajartenses.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:457626489307:android:d46ff930534356d7",
+        "mobilesdk_app_id": "1:723349145723:android:54fe6d8bd50cab83",
         "android_client_info": {
-          "package_name": "com.plankton.belajartenses"
+          "package_name": "com.pendidikan.belajartenses"
         }
       },
       "oauth_client": [
         {
-          "client_id": "457626489307-sgdvos76pukm77albdjpl1mtt1c23l5o.apps.googleusercontent.com",
+          "client_id": "723349145723-7u3rcfhgtog0ejpj4vslvgfdn3c4is0s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.plankton.belajartenses",
-            "certificate_hash": "6f99eb36d9d73048d3b846d1881f57692ae9380e"
+            "package_name": "com.pendidikan.belajartenses",
+            "certificate_hash": "8d16a4bf9fc56ca8dc767bbb4c69895c7c97f864"
           }
         },
         {
-          "client_id": "457626489307-0nc367jcl8i86hsk19beo8vkhjar001m.apps.googleusercontent.com",
+          "client_id": "723349145723-jih50o2i09qadvkbq7s2q37443s7rrfn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAnwX253Y4Qh_mRv3-Lvtg6bRL1kc_Ern4"
+          "current_key": "AIzaSyAVlFQWvoUnbcI00dQJu7Q_Ka-ubz4I_vc"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "457626489307-0nc367jcl8i86hsk19beo8vkhjar001m.apps.googleusercontent.com",
+              "client_id": "723349145723-jih50o2i09qadvkbq7s2q37443s7rrfn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

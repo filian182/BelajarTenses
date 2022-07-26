@@ -1,31 +1,31 @@
 <resources>
 
-        <string name="app_name">Tenses Bahasa Inggris</string>
+    <string name="app_name">Tenses Bahasa Inggris</string>
 
-<string name="banner_ad_unit_id">ca-app-pub-9743149052532225/9422810755</string>
-    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2183060236644599/4685529946</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2183060236644599/8241631571</string>
 
-        <string-array name="catagory">
-            <item>TENSES (BENTUK WAKTU)</item>
-            <item>1. Simple Present</item>
-            <item>2. Present Continuous</item>
-            <item>3. Present Perfect</item>
-            <item>4. Present Perfect Continuous</item>
-            <item>5. Simple Past</item>
-            <item>6. Past Continuous</item>
-            <item>7. Past Perfect</item>
-            <item>8. Past Perfect Continuous</item>
-            <item>9. Simple Future</item>
-            <item>10. Future Continuous</item>
-            <item>11. Future Perfect</item>
-            <item>12. Future Perfect Continuous</item>
-            <item>13. Past Future</item>
-            <item>14. Past Future Continuous</item>
-            <item>15. Past Future Perfect</item>
-            <item>16. Past Future Perfect Continuous</item>
-        </string-array>
+    <string-array name="catagory">
+        <item>TENSES (BENTUK WAKTU)</item>
+        <item>1. Simple Present</item>
+        <item>2. Present Continuous</item>
+        <item>3. Present Perfect</item>
+        <item>4. Present Perfect Continuous</item>
+        <item>5. Simple Past</item>
+        <item>6. Past Continuous</item>
+        <item>7. Past Perfect</item>
+        <item>8. Past Perfect Continuous</item>
+        <item>9. Simple Future</item>
+        <item>10. Future Continuous</item>
+        <item>11. Future Perfect</item>
+        <item>12. Future Perfect Continuous</item>
+        <item>13. Past Future</item>
+        <item>14. Past Future Continuous</item>
+        <item>15. Past Future Perfect</item>
+        <item>16. Past Future Perfect Continuous</item>
+    </string-array>
 
-<string name="text1">Belajar Tenses</string>
+    <string name="text1">Belajar Tenses</string>
     <string name="text2">Bermain dulu baru belajar</string>
     <string name="text3">/belajartenses/android/tensesbahasainggris"</string>
 
@@ -35,7 +35,7 @@
     <string name="navigation_view_item_1">Beranda</string>
     <string name="navigation_view_item_2">Profil</string>
     <string name="navigation_view_item_3">Daftar</string>
-    <string name="navigasi_kategori_2">Sub Item Navigasi</string>
+    <string name="navigasi_kategori_2">Menu Navigasi</string>
     <string name="navigation_view_item_4">Pengaturan</string>
     <string name="navigation_view_item_5">Tentang</string>
     <string name="navigation_view_item_6">Bagikan</string>
@@ -57,8 +57,8 @@
         mempergunakan bentuk waktu <b>(TENSES)</b> yang tepat dan benar.\n\nYang dimaksud dengan <i>TENSES</i> itu adalah suatu gambaran atau penjelasan kapan suatu pernyataan, berita, peristiwa, tindakan itu terjadi
         didalam kalimat : sekarang, masa lampau ataupun masa yang akan datang. Atau perubahan bentuk dari kata kerja <b>(Verb)</b> yang sesuai dengan waktu
     terjadinya suatu peristiwa dan perubahan keterangan waktu. untuk jelasnya kita ambil contoh sebagai berikut :\n</string>
-    <string name="kalimatNominal1">Yang dimaksud kalimat Nominal :\nSuatu kalimat yang tidak mempunyai kata kerja dan bagian terpentingnya adalah Verb (TO BE) yaitu :\n</string>
-    <string name="kalimatVerbal1">Yang dimaksud dengan kalimat Verbal :\nSuatu kalimat yang bagian terpentingnya adalah predikat, kata kerjanya (Verb) dan akan kita temukan kalimat Transitif dan kalimat Intransitif.</string>
+    <string name="kalimatNominal1">Yang dimaksud kalimat Nominal :\nSuatu kalimat yang tidak mempunyai kata kerja dan bagian terpentingnya adalah Verb (TO BE) yaitu :\n\n<b>a.</b> Setelah subyek langsung diikuti kata benda (Noun)\n<b>b.</b> Setelah subyek langsung diikuti kata sifat (Adjective)\n<b>c.</b> Setelah subyek langsung diikuti kata keterangan (Adverb) misalnya keterangan tempat, waktu, dan lain-lain.\n\n<b>Contoh :</b>\n<b>1.</b> I am a student\n<i>(Saya seorang pelajar)</i>\nmerupakan kata benda (Noun)\n<b>2.</b> Sisca is sick\n<i>(Sisca sakit)</i>\nmerupakan kata sifat (Adjective)\n<b>3.</b> Ayu is here\n<i>(Ayu berada disini)</i>\nmerupakan kata keterangan tempat\n<b>4.</b> It is five o’clock\n<i>(ini pukul lima)</i>\nmerupakan kata keterangan waktu\n</string>
+    <string name="kalimatVerbal1">Yang dimaksud dengan kalimat Verbal :\nSuatu kalimat yang bagian terpentingnya adalah predikat, kata kerjanya (Verb) dan akan kita temukan kalimat Transitif dan kalimat Intransitif.\n\n</string>
 
 
     <string name="tenses1">Simple Present Tense adalah suatu bentuk kalimat yang menyatakan suatu perbuatan atau peristiwa yang terjadi pada saat sekarang atau kejadian yang merupakan kebiasaan sehari-hari. Arti dari "simple" yaitu sederhana, sedangkan "present" adalah sekarang. Jadi bisa dikatakan bahwa Simple Present adalah tenses (pola kalimat) yang digunakan untuk menceritakan waktu sekarang dalam bentuk sederhana.</string>
@@ -223,7 +223,20 @@
                     <i>(Kamu belum akan sudah belajar matematika selama dua bulan menjelang akhir bulan lalu.)</i>\n
                 <b>( ? )</b> Would they have been waiting for me for three hours by Last Sunday?\n
                     <i>(Apakah mereka akan sudah sedang menungguku selama tiga jam menjelang hari minggu lalu?)</i>\n\n</string>
+    <string name="icondrawer">icondrawer</string>
+    <string name="gambar">gambar</string>
+    <string name="version_app">Version 1.0</string>
+    <string name="copyright">Copyright 2016–2017</string>
+    <string name="tentang">Tentang</string>
 
-
+    <string name="action_settings">Settings</string>
+    <string name="txt_start_page">Android Quiz Applicatoins Tutorial </string>
+    <string name="str_start_now">Start Now</string>
+    <string name="str_next">Next</string>
+    <string name="str_done">Done</string>
+    <string name="str_results">Results</string>
+    <string name="str_gotohome">Go to Home</string>
+    <string name="str_viewans">View Answer</string>
+    <string name="quiz">Quiz Tenses</string>
+    <string name="todo">TODO</string>
 </resources>
-
